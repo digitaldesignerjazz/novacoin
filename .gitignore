@@ -1,0 +1,31 @@
+# NovaCoin / QNET build and runtime artifacts
+*.log
+*.key
+*.pem
+node_modules/
+.env
+.env.local
+build/
+dist/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+.DS_Store
+
+# Blockchain / Tendermint data
+.data/
+.data_*
+~/.novacoin/
+~/.qnet/
+
+# Sensitive keys and genesis secrets
+genesis/*.key
+genesis/validator*
+*.privkey
+secrets/
+
+# Temporary files
+*.tmp
+*.swp
+*~
